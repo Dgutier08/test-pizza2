@@ -1,0 +1,33 @@
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import PizzasContext from "../context/PizzaProvider";
+import {formatNumber} from "../helpers/formatNumber"
+import style from '../assets/style.css'
+
+const Navbar =() => {
+    const {carrito} = useContext (PizzasContext);
+    const total = carrito.reduce(
+        (valorAnterior, {count, price}) => (valorAnterior+ price)*count,
+        0
+    );
+
+    return(
+        <div className="Navbar">
+            <div className="container d-block">
+                <div className="d-flex justify-content-between">
+                    <Link to="/" className="fondo">
+                        <h4 className="titulo">
+                             {/*&#127829;  */}
+                            Pizzería Mamma Mía
+                        </h4>
+                    </Link>
+                  
+                    <Link to="/carrito" className="logo-nombre mx-1 mb-0">
+                        <h4 className="mb-0">Total: ${formatNumber(total)}</h4>                       
+                    </Link>
+                </div>
+            </div>
+        </div>
+    )
+}
+export default Navbar;

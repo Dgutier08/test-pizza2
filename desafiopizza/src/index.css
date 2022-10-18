@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 10px;
+  margin: 0px;
+  background-image: url("https://us.123rf.com/450wm/milkos/milkos1808/milkos180801303/107130436-rebanadas-de-pizza-con-jam%C3%B3n-y-especias-sobre-fondo-negro-espacio-de-copia-vista-superior.jpg?ver=6");
+  background-size: cover;
+}
+
+.fondo {
+  margin: 0px;
+  background-image: url("https://us.123rf.com/450wm/milkos/milkos1808/milkos180801303/107130436-rebanadas-de-pizza-con-jam%C3%B3n-y-especias-sobre-fondo-negro-espacio-de-copia-vista-superior.jpg?ver=6");
+  background-size: cover;
+}
+
+.titulo {
+  text-align: center;
+  
+}
