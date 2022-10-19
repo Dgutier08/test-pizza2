@@ -1,11 +1,11 @@
 import React from 'react'
-
+import style from "../assets/style.css"
 const Header = () => {
   return (
-    <div className='header'>
-        <h1>Pizzeria Mamma Mia</h1>
+    <div className="header">
+        <p >Pizzeria Mamma Mia</p>
         <h6>Tenemos las mejores pizzas que podras encontras</h6>
-        <hr className='w-75 mx-auto' />
+        <hr className='' />
     </div>
   )
 }

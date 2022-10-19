@@ -13,10 +13,10 @@ const Navbar =() => {
 
     return(
         <div className="Navbar">
-            <div className="container d-block">
-                <div className="d-flex justify-content-between">
-                    <Link to="/" className="fondo">
-                        <h4 className="titulo">
+            <div className="">
+                <div className="">
+                    <Link to="/" className="">
+                        <h4 className="">
                              {/*&#127829;  */}
                             Pizzería Mamma Mía
                         </h4>
